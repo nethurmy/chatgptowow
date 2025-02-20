@@ -13,8 +13,8 @@ from aiogram.utils.markdown import html_decoration as hd
 from bs4 import BeautifulSoup
 
 # Конфигурация
-BOT_TOKEN = "7243103974:AAH3YEuKRtQKOVRKaDqKD1c0f6mDi4zYK9I"
-ADMIN_IDS = [78206270404]  # Замените на ваш ID администратора
+BOT_TOKEN = "token"
+ADMIN_IDS = [id]  # Замените на ваш ID администратора
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
